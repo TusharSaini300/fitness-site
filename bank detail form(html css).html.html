@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bank details form</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet"  type="text/css" href="main.css">
+    </head>
+   <body>
+       <div class="box">
+    <form action="">
+        <h1><b><u>Bank Details</u></b></h1>
+        <h2><u>Personal information</u></h2>
+        
+       <p><input type="text" name="name" placeholder="enter your name" required></p>
+        
+        
+        
+        <p><input type="number" name="age" id="age" placeholder="enter your age" required></p>
+        
+        <p><textarea cols=20 rows=5 placeholder="enter your address" required></textarea></p>
+        
+        <p><input type="number" name="ph_number" id="ph_number" placeholder="enter your phone numer" required></p>
+        
+        <p><input type="email" name="email" id="email" placeholder="enter your email address" required></p>
+        <h2><u>Card Details</u></h2>
+    
+        
+        <p><input type="number" name="card_number" id="card_number" placeholder="Enter your card number" required></p>
+        
+       
+        <p><input type="number" name="cvv" id="cvv" placeholder="enter your cvv" required></p>
+        
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        
+        
+           </form></div>
+        <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">&copy; 2020 | Fitness Site</a>
+    </footer>
+    
+    
+    </body></html>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+html{
+   background: url(pexels-cottonbro-4761781.jpg);
+    background-size: cover;
+    background-position: center;
+ 
+    
+}
+body{
+  
+    text-align: center;
+   
+    
+    }
+
+
+
+h1{
+    
+    color: white;
+    font-family: cursive;
+    font-size: 35px;
+}
+h2{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+textarea
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    border-color: white;
+    color: white;
+    background-color: black;
+    border-width: 2px;
+}
+input[type="submit"],
+input[type="reset"]
+{
+    color: white;
+    background-color: black;
+    border-color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.box{
+  
+    box-sizing: border-box;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+    footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+</style>
